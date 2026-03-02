@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 
 def carregar_chave():
     """Carrega a chave de criptografia do arquivo 'chave.key'."""
-    return open("chave.key", "rb") .read()
+    return open("chave.key", "rb").read()
 
 def descriptografar_arquivo(caminho_arquivo, chave):
     """Descriptografa o arquivo especificado usando a chave fornecida."""

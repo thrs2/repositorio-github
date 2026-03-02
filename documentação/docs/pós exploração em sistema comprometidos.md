@@ -7,7 +7,7 @@
 
  ### o escalonamento de privilégios
 o escalonamento de privilégios é o processo de obter privilégios mais altos no sistema comprometido, permitindo ao atacante executar ações que normalmente seriam restritas.
-ele se tá como o objetivo de obter acesso administrativo ou root no sistema alvo apartir de uma conta com privilégios limitados(ex: usuário comum).
+ele se tá como o objetivo de obter acesso administrativo ou root no sistema alvo a partir de uma conta com privilégios limitados(ex: usuário comum).
 
 para realizar o escalonamento de privilégios,vamos reaproveitar o backdoor aberto no [seção "meterpreter como backdoor"](<técnicas de exploração de vulnerabilidade.md#meterpreter-como-backdoor>)
 , onde já temos acesso ao sistema alvo com privilégios limitados.
@@ -24,7 +24,7 @@ para realizar o escalonamento de privilégios,vamos reaproveitar o backdoor aber
     - use o comando `set SESSION <ID da sessão>` para definir a sessão atual do meterpreter.
     (**obs:** o payload vai criar uma nova sessão com privilégios elevados, então será necessário trocar a porta usada para evitar conflito.)
 6. definir o payload:
-   - use o comando `set [ip <seu IP>]` para definir o payload.
+   - use o comando `set LHOST <seu_IP>` para definir o payload.
    - use o comando `set LPORT <porta diferente da usada anteriormente>` para definir a porta de escuta.
 7. executar o exploit:
    - use o comando `exploit` para executar o exploit.
@@ -54,7 +54,7 @@ o metasploit oferece uma variedade de módulos de pós exploração que podem se
 - capturar de dados sensíveis: localizar e extrair arquivos importantes do sistema comprometido.
 
 - o que cada módulo faz:
-    - m̀igrate: permite migrar o processo do meterpreter para outro processo em execução no sistema comprometido, o que pode ajudar a manter o acesso e evitar a detecção.
+    - migrate: permite migrar o processo do meterpreter para outro processo em execução no sistema comprometido, o que pode ajudar a manter o acesso e evitar a detecção.
     -hashdump: extrai hashes de senhas do sistema comprometido, que podem ser usados para ataques de força bruta ou para obter acesso adicional.
     - enum_shares: lista os compartilhamentos de rede disponíveis no sistema comprometido.
         - enum_applications: lista os aplicativos instalados no sistema comprometido.

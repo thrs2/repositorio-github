@@ -91,7 +91,7 @@ forma de ataque DoS no RDP:
   - colocar run para executar o exploit.
 - se o ataque for bem-sucedido, o sistema Windows XP pode travar ou reiniciar, demonstrando a vulnerabilidade do RDP a ataques DoS.
 
-##  exploitando falhas de SSH
+##  explorando falhas de SSH
 O Secure Shell (SSH) é um protocolo de rede usado para comunicação segura entre um cliente e um servidor. No entanto, o SSH pode ser vulnerável a várias falhas de segurança, como autenticação fraca e ataques de força bruta.
 
 vamos explorar uma vulnerabilidade comum no SSH usando o Metasploit:

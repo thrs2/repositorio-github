@@ -16,7 +16,7 @@ a Enumeração de redes é o processo de coletar informações detalhadas sobre 
 
 ### técnicas de enumeração
 
-- **extrair username a apartir de id de emails**: usar scripts para obter nomes de usuários a partir de endereços de email
+- **extrair username a apartir de IDs de emails**: usar scripts para obter nomes de usuários a partir de endereços de email
 - **extrair informações através de senhas**: usar ferramentas para descobrir senhas fracas ou padrões
 - **diretorio ativo de brute force**: tentar várias combinações de usuário e senha para acessar contas
 - **descobrir grupos de usuários**: identificar grupos e suas permissões
@@ -39,7 +39,7 @@ flowchart TD
 ### informações obtidas
 
 - **redes de origem**
-- **Usúarios e grupos**
+- **Usuários e grupos**
 - **tabela de roteamento**
 - **configurações de auditoria**
 - **configurações de serviços**

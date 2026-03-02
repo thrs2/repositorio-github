@@ -3,7 +3,7 @@ oque é um malware ?
 Malware é um software malicioso desenvolvido para causar danos a sistemas computacionais, roubar informações ou comprometer a segurança de dispositivos. Existem diversos tipos de malware, incluindo vírus, worms, trojans, spyware, adware e ransomware.
 
 ## exemplos de malware conhecidos
-- virús: é o mais conhecido, ele se anexa a arquivos legítimos e se espalha quando esses arquivos são compartilhados.
+- vírus: é o mais conhecido, ele se anexa a arquivos legítimos e se espalha quando esses arquivos são compartilhados.
 - worm: é um tipo de malware que se replica automaticamente e se espalha por redes, explorando vulnerabilidades em sistemas.
 - trojan: é um malware que se disfarça como um software legítimo, mas na verdade realiza ações maliciosas quando executado.
 - spyware: é um software que coleta informações sobre o usuário sem o seu consentimento, muitas vezes para fins de espionagem.

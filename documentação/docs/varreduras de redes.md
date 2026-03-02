@@ -28,7 +28,7 @@ o nmap é uma ferramenta de código aberto usado para mapeamento de vulnerabilid
 - **BLOQUEADO**
 
 ### atividade prática
-usando o metasploitable e kali linux n0 virt-manager
+usando o metasploitable e kali linux no virt-manager
 > **observação:** o metasploitable está a ser usado na versão **ubuntu 8.04 lts**
 
 após o comando ``nmap -v 192.168.100.0/24`` foi mostrado todas essas portas abertas no metasploitable 

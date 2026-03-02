@@ -1,6 +1,6 @@
 # estudos de segurança cibernetica da santander
 
- isso é uma documentação de atividades patricas do bootcamp de santander em parceira com a DIO, aqui irá listar todas as atividades realizados em laboratorios locais com fins meramente educacionais" ou "em detrimento de fins maliciosos, focando em fins educacionais e de pesquisa.
+ isso é uma documentação de atividades práticas do bootcamp de santander em parceria com a DIO, aqui irá listar todas as atividades realizados em laboratorios locais com fins meramente educacionais" ou "em detrimento de fins maliciosos, focando em fins educacionais e de pesquisa.
 ![](documentação/.img/unnamed.jpg)
 
 ## Documentação
