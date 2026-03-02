@@ -6,7 +6,7 @@
 ## Documentação
 
 - [varredura de redes](<documentação/docs/varreduras de redes.md>)
-- [enumeração](<documentação/docs/varreduras de redes.md>)
+- [enumeração](<documentação/docs/enumeração.md>)
 - [técnicas de exploração de vulnerabilidade](<documentação/docs/técnicas de exploração de vulnerabilidade.md>)
 - [pós exploração](<documentação/docs/pós exploração em sistema comprometidos.md>)
 
